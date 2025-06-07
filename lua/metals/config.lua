@@ -134,6 +134,7 @@ local valid_metals_settings = {
   "showImplicitArguments",
   "showImplicitConversionsAndClasses",
   "showInferredType",
+  "startMcpServer",
   "superMethodLensesEnabled",
   "testUserInterface",
   "verboseCompilation",

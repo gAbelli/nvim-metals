@@ -212,6 +212,7 @@ _ones that are sent and used by the server_
   * |scalafixRulesDependencies|
   * |scalafmtConfigPath|
   * |serverProperties|
+  * |startMcpServer|
   * |superMethodLensesEnabled|
   * |verboseCompilation|
 
@@ -524,6 +525,13 @@ necessarily the memory options since Metals has different requirements for
 example than sbt. So if you have proxy settings defined in `JAVA_OPTS`, then
 no need to define them here again. However, if you want to set some specific
 memory settings for Metals, then this is the place.
+
+startMcpServer                                                  *startMcpServer*
+
+Type: boolean ~
+Default: false ~
+
+If true, Metals will start the MCP server.
 
 superMethodLensesEnabled                              *superMethodLensesEnabled*
 
