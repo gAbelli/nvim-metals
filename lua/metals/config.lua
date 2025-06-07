@@ -113,6 +113,7 @@ local valid_metals_settings = {
   "bloopVersion",
   "bloopJvmProperties",
   "defaultBspToBuildTool",
+  "enableBestEffort",
   "enableSemanticHighlighting",
   "excludedPackages",
   "fallbackScalaVersion",

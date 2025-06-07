@@ -194,6 +194,7 @@ _ones that are sent and used by the server_
   * |bloopVersion|
   * |bloopJvmProperties|
   * |defaultBspToBuildTool|
+  * |enableBestEffort|
   * |enableSemanticHighlighting|
   * |excludedPackages|
   * |fallbackScalaVersion|
@@ -295,6 +296,17 @@ workspace until you close it. NOTE: The choice isn't persisted, so you need to
 continually do this every time you want to use it even in the same workspace.
 If people _actually_ use this setting and want that, submit a feature request,
 if not it's not worth the extra work.
+
+enableBestEffort                                              *enableBestEffort*
+
+Type: boolean ~
+Default: false ~
+
+When this option is enabled, the Scala 3 compiler will produce a tasty-like
+format files that can also include partially broken trees even when a module
+does not compile. Those files, similarly to normal tasty files, will be later
+consumed by the presentation compiler providing most up to date information
+about the project.
 
 enableSemanticHighlighting                          *enableSemanticHighlighting* 
 
