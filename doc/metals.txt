@@ -385,6 +385,7 @@ Table of inlay hints to enable. >
     implicitArguments = { enable = true },
     implicitConversions = { enable = true },
     inferredTypes = { enable = true },
+    namedParameters = { enable = true },
     typeParameters = { enable = true },
   }
 <
